@@ -162,3 +162,41 @@ h2 {
     color: rgb(228, 0, 0);
     font-size: 100px;
 }
+
+
+
+.MobileError{
+    position: absolute;
+    top: 10000%;
+}
+
+
+@media screen and (max-width:800px) {
+    .MobileError{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 390px;
+        background-color: #111827;
+        height: 160px;
+        text-align: center;
+        margin-top: 5rem;
+        border-radius: 1rem;
+        color: white;
+        padding-top: 1.5rem;
+        font-size: 28px;
+        padding: 50px 0;
+        
+    }
+    .MobileErrorBackground{
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height: 1000%;
+        width: 100%;
+        background-color: rgb(244, 244, 248);
+    }
+}
